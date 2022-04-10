@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/katerine/RiderProjects/Project_Sun_1/Project_Sun_1/Project_Sun_1.csproj": {}
+  },
+  "projects": {
+    "/home/katerine/RiderProjects/Project_Sun_1/Project_Sun_1/Project_Sun_1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/katerine/RiderProjects/Project_Sun_1/Project_Sun_1/Project_Sun_1.csproj",
+        "projectName": "Project_Sun_1",
+        "projectPath": "/home/katerine/RiderProjects/Project_Sun_1/Project_Sun_1/Project_Sun_1.csproj",
+        "packagesPath": "/home/katerine/.nuget/packages/",
+        "outputPath": "/home/katerine/RiderProjects/Project_Sun_1/Project_Sun_1/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/katerine/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0-preview.2.22153.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0-preview.2.22153.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0-preview.2.22153.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
